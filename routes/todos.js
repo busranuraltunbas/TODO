@@ -11,7 +11,7 @@ router.get('/', async (req,res) =>{
     res.render('index', {
         title: 'Todo List',
         isIndex:  true,
-        toodos
+        todos
     })
 })
 
